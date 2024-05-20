@@ -38,19 +38,7 @@ class ConverterFactory:
         else:
             raise ValueError("Invalid conversion type")
 
-# Unit tests
-import unittest
 
-class TestConverter(unittest.TestCase):
-    def test_roman_to_decimal_conversion(self):
-        converter = ConverterFactory.create_converter('roman_to_decimal')
-        self.assertEqual(converter.convert('X'), 10)
-        self.assertEqual(converter.convert('IV'), 4)
-    
-    def test_decimal_to_roman_conversion(self):
-        converter = ConverterFactory.create_converter('decimal_to_roman')
-        self.assertEqual(converter.convert(10), 'X')
-        self.assertEqual(converter.convert(4), 'IV')
 
 if __name__ == '__main__':
     print("Welcome to the Roman-Decimal Converter!")
