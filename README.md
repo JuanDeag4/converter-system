@@ -2,6 +2,12 @@
 ## Introduction
 
 The goal of this coursework is to develop a Python application for converting between Roman and Decimal numbers. The application serves as a tool for users to seamlessly convert numbers between these two numeral systems. To run the program, ensure Python is installed on your system, then execute the `converter.py` script. Using the program involves choosing the conversion type (Roman to Decimal or Decimal to Roman) and providing the input accordingly.
+Execution guide:
+Download the file (converter.py) to your computer.
+Open command prompt or terminal
+Navigate to the Directory Containing the Script: 'cd C:\Users\dziug\Downloads'
+Run the Script: 'python converter.py'
+Follow the displayed instructions
 
 ## Body/Analysis
 
