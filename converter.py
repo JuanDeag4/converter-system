@@ -53,4 +53,20 @@ class TestConverter(unittest.TestCase):
         self.assertEqual(converter.convert(4), 'IV')
 
 if __name__ == '__main__':
-    unittest.main()
+    print("Welcome to the Roman-Decimal Converter!")
+    print("Please choose the conversion type:")
+    print("1. Roman to Decimal")
+    print("2. Decimal to Roman")
+    choice = input("Enter your choice (1/2): ")
+    if choice == '1':
+        roman_input = input("Enter the Roman numeral: ")
+        converter = ConverterFactory.create_converter('roman_to_decimal')
+        result = converter.convert(roman_input)
+        print("Decimal equivalent:", result)
+    elif choice == '2':
+        decimal_input = int(input("Enter the decimal number: "))
+        converter = ConverterFactory.create_converter('decimal_to_roman')
+        result = converter.convert(decimal_input)
+        print("Roman numeral:", result)
+    else:
+        print("Invalid choice. Please choose either 1 or 2.")
