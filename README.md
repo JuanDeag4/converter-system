@@ -27,3 +27,5 @@ Code snippets from the program are provided to illustrate the implementation of 
 ## Conclusions
 
 In conclusion, this coursework project has achieved its objectives of developing a robust Roman-Decimal converter in Python. The program demonstrates effective utilization of object-oriented programming principles and design patterns, ensuring modularity and extensibility. Future prospects include potential enhancements such as adding support for additional numeral systems, optimizing conversion algorithms further, and expanding unit test coverage.
+
+Džiugas Sakalauskas Ef-23/2
